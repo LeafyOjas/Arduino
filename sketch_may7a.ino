@@ -13,7 +13,6 @@ void loop() {
   int irRead = digitalRead(infrared);
   if (irRead == 1){
     digitalWrite(led,LOW);
-    
   }
 
   if (irRead == 0){
